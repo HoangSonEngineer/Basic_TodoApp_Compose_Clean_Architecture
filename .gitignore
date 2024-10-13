@@ -1,0 +1,42 @@
+# Gradle files
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Local configuration file (SDK path, etc.)
+local.properties
+
+# Log and temporary files
+*.log
+*.lock
+*.tmp
+*.bak
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/tasks.xml
+/.idea/dictionaries
+/.idea/caches
+/.idea/modules.xml
+.DS_Store
+*.swp
+
+# Keystore files (these should be stored securely and not tracked)
+*.jks
+
+# Android log files
+*.log
+
+# Generated files
+/build/
+/captures/
+/output.json
+.externalNativeBuild/
+
+# Google Services (keep your API keys safe)
+google-services.json
